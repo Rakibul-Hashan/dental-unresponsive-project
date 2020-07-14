@@ -1,0 +1,22 @@
+@import"_reset";
+@import"_mixin";
+@import"_variable";
+
+%head{
+	font-size: 22px !important;
+	font-weight: 700;
+}
+
+%btn-custom{
+		background:$primary-color;
+		@include padd(36px, 7px);
+		border-radius:0;
+		color: #fff;
+		font-size: 16px;
+		font-weight: 500;
+		transition: all 0.4s;
+		&:hover{
+			background:$theme-color;
+			color: #fff;
+		}
+}

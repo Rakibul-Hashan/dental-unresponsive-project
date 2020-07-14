@@ -1,0 +1,15 @@
+@mixin padd($paddx,$paddy){
+	padding-right:$paddx;
+	padding-left:$paddx;
+	padding-top:$paddy;
+	padding-bottom:$paddy;
+
+}
+@mixin marg($mart,$marb){
+	margin-top: $mart;
+	margin-bottom: $marb;
+}
+
+@mixin ani($time, $type){
+	transition: $time $type;
+}
